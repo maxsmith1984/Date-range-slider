@@ -3,5 +3,33 @@ layout: default
 title: Date range slider
 ---
 <div class="container">
-    Hello!
+    <div class="range-slider">
+        <div class="range-slider__value value">
+            <div class="value__min">2014 Январь</div>
+            <div class="value__max">2021 Декабрь</div>
+        </div>
+
+        <div class="range-slider__progress progress">
+            <div class="progress__line"></div>
+            <input class="progress__min progress__range" type="range" min="0" max="95" value="0" step="1">
+
+            <input class="progress__max progress__range" type="range" min="0" max="95" value="95" step="1">
+
+        </div>
+        <div class="year">
+            <div>2014</div>
+            <div>2015</div>
+            <div>2016</div>
+            <div>2017</div>
+            <div>2018</div>
+            <div>2019</div>
+            <div>2020</div>
+            <div>2021</div>
+            <div>2022</div>
+
+        </div>
+    </div>
+
+
+
 </div>
